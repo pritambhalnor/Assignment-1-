@@ -1,5 +1,6 @@
 import React from 'react'
-import styled from "styled-components";
+// import styled from "styled-components";
+import  './Content1.css'
 
 export default class Content extends React.Component {
 
@@ -36,7 +37,7 @@ export default class Content extends React.Component {
 
     render() {
         return (
-            <Wrapper className="Container">
+            <div className="Container">
                 <div className="row">
                 <h1 className='App-header' >Assignment 1</h1> 
                     <div className="col-10 mx-auto col-lg-4 col-sm-8  my-5">
@@ -65,21 +66,12 @@ export default class Content extends React.Component {
                         </div>
                     </div>
                 </div>
-            </Wrapper>
+            </div>
         )
     }
 }
 
-const Wrapper = styled.div`
-.b{
-    border:2px solid aqua;
-    border-radius:8px;
-}
-.a{
-    border:2px light red;
-    border-radius:8px;
-}
-`
+
 
 // Another way to fire the function "onClick"
 
