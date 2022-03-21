@@ -71,8 +71,3 @@ export default class Content extends React.Component {
     }
 }
 
-
-
-// Another way to fire the function "onClick"
-
-{/* <button onClick = { this.exe1.bind(this) } >Add Numbers</button> */ }
